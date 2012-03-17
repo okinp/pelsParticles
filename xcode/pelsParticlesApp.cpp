@@ -7,7 +7,7 @@ using namespace ci::app;
 using namespace std;
 
 class pelsParticlesAppApp : public AppBasic {
-  public:
+public:
 	void setup();
 	void mouseDown( MouseEvent event );	
 	void update();
@@ -32,7 +32,7 @@ void pelsParticlesAppApp::draw()
 }
 void pelsParticlesAppApp::mouseDown( MouseEvent event )
 {
-
+    
 }
 
 CINDER_APP_BASIC( pelsParticlesAppApp, RendererGl )

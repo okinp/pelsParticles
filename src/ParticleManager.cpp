@@ -93,8 +93,8 @@ void ParticleManager::initializeData()
         for ( int idxB = 0; idxB < NUM_SUB_PARTICLES; ++idxB )
         {
             SubParticle subP( m_EmitterPos, m_EmitterAcc );
-            int pSubIndex = pIndex +  
-            subP.setArrayIndex( );
+//            int pSubIndex = pIndex +  
+           // subP.setArrayIndex( );
         }
 
 //         mVboPositions[(NUM_SUB_PARTICLES+1)*idx*4 + 0] = 0.f;
